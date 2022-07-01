@@ -4,7 +4,7 @@ from django.views.generic import TemplateView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('api_yamdb.api.urls')),
+    path('api/', include('api.urls')),
     path('auth/', include('django.contrib.auth.urls')),
     path(
         'redoc/',

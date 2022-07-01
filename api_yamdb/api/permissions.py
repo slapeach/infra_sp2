@@ -1,6 +1,6 @@
 from rest_framework import permissions
 
-from api_yamdb.reviews.models import ADMIN
+from reviews.models import ADMIN
 
 
 class IsAdmin(permissions.BasePermission):

@@ -14,7 +14,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework_simplejwt.tokens import RefreshToken
 
-from api_yamdb.reviews.models import Category, Genre, Review, Title, User, USER
+from reviews.models import Category, Genre, Review, Title, User, USER
 from .filters import TitleFilter
 from .mixins import ListCreateDestroyMixin
 from .permissions import IsAdmin, IsAdminOrReadOnly, IsAuthorOrStaffOrReadOnly
